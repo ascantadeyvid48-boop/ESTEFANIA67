@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+    background-color:black;
+}
+
+header {
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.contenedor {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.caja {
+    background-color: white;
+    padding: 40px;
+    flex: 1;
+    border-radius: 10px;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    padding: 10px;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+
+    .contenedor {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    body {
+        background-color: lightyellow;
+    }
+}
